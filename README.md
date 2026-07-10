@@ -53,7 +53,7 @@ julia ddl_to_ddl.jl -c cif_core_multiblock.dic -i --short --strict -t CIF_IMG -o
 ```
 
 using the `ddl_to_ddl.jl` and `remove_category.jl` tools and associated DDL
-translation dictionaries from the `https://github.com/jamesrhester/ddl_to_ddl`
+translation dictionaries from the [ddl_to_ddl](https://github.com/jamesrhester/ddl_to_ddl)
 repository and the `cif_core_multiblock.dic` found in the [COMCIFS Multiblock coreCIF
 dictionary repository](https://github.com/COMCIFS/cif_core_multiblock).  A [COMCIFS
 fork of the DDL2 imgCIF
